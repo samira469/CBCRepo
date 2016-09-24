@@ -427,7 +427,7 @@
 		37759C5D1D970AAB0087B381 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = 76JYPRR46U;
 				INFOPLIST_FILE = CBCApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -440,7 +440,7 @@
 		37759C5E1D970AAB0087B381 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = 76JYPRR46U;
 				INFOPLIST_FILE = CBCApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -527,6 +527,7 @@
 				37759C5E1D970AAB0087B381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37759C5F1D970AAB0087B381 /* Build configuration list for PBXNativeTarget "CBCAppTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +536,7 @@
 				37759C611D970AAB0087B381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37759C621D970AAB0087B381 /* Build configuration list for PBXNativeTarget "CBCAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +545,7 @@
 				37759C641D970AAB0087B381 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

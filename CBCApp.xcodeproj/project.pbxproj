@@ -40,9 +40,9 @@
 		37759C361D970AAB0087B381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37759C391D970AAB0087B381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37759C3C1D970AAB0087B381 /* CBCApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CBCApp.xcdatamodel; sourceTree = "<group>"; };
-		37759C3E1D970AAB0087B381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37759C3E1D970AAB0087B381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CBCApp/Assets.xcassets; sourceTree = "<group>"; };
 		37759C411D970AAB0087B381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		37759C431D970AAB0087B381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37759C431D970AAB0087B381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = CBCApp/Info.plist; sourceTree = "<group>"; };
 		37759C481D970AAB0087B381 /* CBCAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBCAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37759C4C1D970AAB0087B381 /* CBCAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCAppTests.swift; sourceTree = "<group>"; };
 		37759C4E1D970AAB0087B381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				37759C331D970AAB0087B381 /* CBCApp */,
+				37759C651D970ACF0087B381 /* Supporting Files */,
 				37759C4B1D970AAB0087B381 /* CBCAppTests */,
 				37759C561D970AAB0087B381 /* CBCAppUITests */,
 				37759C321D970AAB0087B381 /* Products */,
@@ -102,10 +103,6 @@
 				37759C341D970AAB0087B381 /* AppDelegate.swift */,
 				37759C361D970AAB0087B381 /* ViewController.swift */,
 				37759C381D970AAB0087B381 /* Main.storyboard */,
-				37759C3E1D970AAB0087B381 /* Assets.xcassets */,
-				37759C401D970AAB0087B381 /* LaunchScreen.storyboard */,
-				37759C431D970AAB0087B381 /* Info.plist */,
-				37759C3B1D970AAB0087B381 /* CBCApp.xcdatamodeld */,
 			);
 			path = CBCApp;
 			sourceTree = "<group>";
@@ -126,6 +123,17 @@
 				37759C591D970AAB0087B381 /* Info.plist */,
 			);
 			path = CBCAppUITests;
+			sourceTree = "<group>";
+		};
+		37759C651D970ACF0087B381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37759C3E1D970AAB0087B381 /* Assets.xcassets */,
+				37759C401D970AAB0087B381 /* LaunchScreen.storyboard */,
+				37759C431D970AAB0087B381 /* Info.plist */,
+				37759C3B1D970AAB0087B381 /* CBCApp.xcdatamodeld */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,6 +325,7 @@
 				37759C411D970AAB0087B381 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = CBCApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -544,7 +553,8 @@
 				37759C3C1D970AAB0087B381 /* CBCApp.xcdatamodel */,
 			);
 			currentVersion = 37759C3C1D970AAB0087B381 /* CBCApp.xcdatamodel */;
-			path = CBCApp.xcdatamodeld;
+			name = CBCApp.xcdatamodeld;
+			path = CBCApp/CBCApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

@@ -15,6 +15,7 @@
 		37759C4D1D970AAB0087B381 /* CBCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759C4C1D970AAB0087B381 /* CBCAppTests.swift */; };
 		37759C581D970AAB0087B381 /* CBCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759C571D970AAB0087B381 /* CBCAppUITests.swift */; };
 		37A43A0F1D9804C1001E2472 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A43A0E1D9804C1001E2472 /* MainViewController.swift */; };
+		37A43A111D980653001E2472 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A43A101D980653001E2472 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		37759C571D970AAB0087B381 /* CBCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCAppUITests.swift; sourceTree = "<group>"; };
 		37759C591D970AAB0087B381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A43A0E1D9804C1001E2472 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
+		37A43A101D980653001E2472 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		37759C331D970AAB0087B381 /* CBCApp */ = {
 			isa = PBXGroup;
 			children = (
+				37A43A101D980653001E2472 /* WebViewController.swift */,
 				37A43A0E1D9804C1001E2472 /* MainViewController.swift */,
 				37759C341D970AAB0087B381 /* AppDelegate.swift */,
 				37759C381D970AAB0087B381 /* Main.storyboard */,
@@ -276,6 +279,7 @@
 				37759C351D970AAB0087B381 /* AppDelegate.swift in Sources */,
 				37759C3D1D970AAB0087B381 /* CBCApp.xcdatamodeld in Sources */,
 				37A43A0F1D9804C1001E2472 /* MainViewController.swift in Sources */,
+				37A43A111D980653001E2472 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

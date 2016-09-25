@@ -62,13 +62,35 @@
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UVQ-eh-icx">
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufB-ZN-ovC">
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="187" id="ZHU-IE-lVt"/>
+                                    <constraint firstAttribute="height" constant="43" id="e9E-D3-QuF"/>
+                                </constraints>
+                                <state key="normal" title="Share on Facebook"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gq4-xH-gOh">
+                                <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="bej-9X-cg5"/>
+                                    <constraint firstAttribute="width" constant="187" id="pSO-Xs-NaV"/>
+                                </constraints>
+                                <state key="normal" title="Tweet on Twitter "/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="UVQ-eh-icx" firstAttribute="top" secondItem="BwT-ys-0sM" secondAttribute="bottom" id="7mb-Li-8sw"/>
                             <constraint firstItem="UVQ-eh-icx" firstAttribute="leading" secondItem="nL2-rm-P6w" secondAttribute="leading" id="C9K-iF-eeE"/>
+                            <constraint firstItem="ufB-ZN-ovC" firstAttribute="top" secondItem="UVQ-eh-icx" secondAttribute="bottom" constant="8" id="ETG-Pf-RiJ"/>
+                            <constraint firstItem="lUW-Mi-vEe" firstAttribute="top" secondItem="ufB-ZN-ovC" secondAttribute="bottom" id="dzF-Qy-WG6"/>
+                            <constraint firstAttribute="trailing" secondItem="gq4-xH-gOh" secondAttribute="trailing" id="etS-Fg-aSn"/>
+                            <constraint firstItem="lUW-Mi-vEe" firstAttribute="top" secondItem="gq4-xH-gOh" secondAttribute="bottom" id="ky8-as-zUJ"/>
+                            <constraint firstItem="ufB-ZN-ovC" firstAttribute="leading" secondItem="nL2-rm-P6w" secondAttribute="leading" id="o10-ZV-pcF"/>
                             <constraint firstAttribute="trailing" secondItem="UVQ-eh-icx" secondAttribute="trailing" id="pWe-hW-bbD"/>
-                            <constraint firstItem="lUW-Mi-vEe" firstAttribute="top" secondItem="UVQ-eh-icx" secondAttribute="bottom" id="qFX-4P-zTg"/>
+                            <constraint firstItem="lUW-Mi-vEe" firstAttribute="top" secondItem="UVQ-eh-icx" secondAttribute="bottom" constant="51" id="qFX-4P-zTg"/>
+                            <constraint firstItem="gq4-xH-gOh" firstAttribute="top" secondItem="UVQ-eh-icx" secondAttribute="bottom" constant="8" id="x84-QM-99q"/>
                         </constraints>
                     </view>
                     <connections>

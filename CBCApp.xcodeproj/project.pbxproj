@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		37759C351D970AAB0087B381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759C341D970AAB0087B381 /* AppDelegate.swift */; };
-		37759C371D970AAB0087B381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759C361D970AAB0087B381 /* ViewController.swift */; };
 		37759C3A1D970AAB0087B381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37759C381D970AAB0087B381 /* Main.storyboard */; };
 		37759C3D1D970AAB0087B381 /* CBCApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37759C3B1D970AAB0087B381 /* CBCApp.xcdatamodeld */; };
 		37759C3F1D970AAB0087B381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37759C3E1D970AAB0087B381 /* Assets.xcassets */; };
 		37759C421D970AAB0087B381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37759C401D970AAB0087B381 /* LaunchScreen.storyboard */; };
 		37759C4D1D970AAB0087B381 /* CBCAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759C4C1D970AAB0087B381 /* CBCAppTests.swift */; };
 		37759C581D970AAB0087B381 /* CBCAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37759C571D970AAB0087B381 /* CBCAppUITests.swift */; };
+		37A43A0F1D9804C1001E2472 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A43A0E1D9804C1001E2472 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		37759C311D970AAB0087B381 /* CBCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CBCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37759C341D970AAB0087B381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37759C361D970AAB0087B381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37759C391D970AAB0087B381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37759C3C1D970AAB0087B381 /* CBCApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CBCApp.xcdatamodel; sourceTree = "<group>"; };
 		37759C3E1D970AAB0087B381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = CBCApp/Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		37759C531D970AAB0087B381 /* CBCAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBCAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37759C571D970AAB0087B381 /* CBCAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBCAppUITests.swift; sourceTree = "<group>"; };
 		37759C591D970AAB0087B381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A43A0E1D9804C1001E2472 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 		37759C331D970AAB0087B381 /* CBCApp */ = {
 			isa = PBXGroup;
 			children = (
+				37A43A0E1D9804C1001E2472 /* MainViewController.swift */,
 				37759C341D970AAB0087B381 /* AppDelegate.swift */,
-				37759C361D970AAB0087B381 /* ViewController.swift */,
 				37759C381D970AAB0087B381 /* Main.storyboard */,
 			);
 			path = CBCApp;
@@ -273,9 +273,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37759C371D970AAB0087B381 /* ViewController.swift in Sources */,
 				37759C351D970AAB0087B381 /* AppDelegate.swift in Sources */,
 				37759C3D1D970AAB0087B381 /* CBCApp.xcdatamodeld in Sources */,
+				37A43A0F1D9804C1001E2472 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
